@@ -1,1 +1,1 @@
-# freeman-fifty
+# everypraise-theme
