@@ -66,7 +66,7 @@
 					<div class="container">
 						<div class="row row-with-vspace site-branding">
 							<div class="col-xs-6 site-title">
-								<?php if (is_active_sidebar('header-left')) { ?>
+
 									<div class="pull-left">
 										<?php if ( get_theme_mod( 'm1_logo' ) ) : ?>
 											<div class="header-logo">
@@ -89,10 +89,12 @@
 												<?php bloginfo('description'); ?>
 											</small>
 										</div>
+										<?php if (is_active_sidebar('header-left')) { ?>
 										<?php dynamic_sidebar('header-left'); ?>
+										<?php } // endif; ?>
 									</div>
 									<div class="clearfix"></div>
-								<?php } // endif; ?>
+
 							</div>
 							<div class="col-xs-6 page-header-top-right">
 								<?php if (is_active_sidebar('header-right')) { ?>

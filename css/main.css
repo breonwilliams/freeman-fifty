@@ -740,7 +740,7 @@ Header
 }
 
 #site-header {
-	background: #CD1736;
+	background: rgba(0,0,0,0.85);
 }
 
 .header-top-area{
