@@ -130,6 +130,6 @@
 			</div><!--.main-navigation-->
 		</header>
 		<?php full_above_content_area(); ?>
-			
+
 			<div class="fluid-wrap">
 			<div id="content" class="row-with-vspace site-content">
