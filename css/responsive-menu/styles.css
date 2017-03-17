@@ -480,4 +480,8 @@
     #cssmenu > ul ul > li.has-sub > ul > li.active > a {
         border-top: none;
     }
+
+    .respMenu #menu-main {
+        background: rgba(0,0,0,0.85);
+    }
 }

@@ -251,6 +251,10 @@ hr {
 	border-top: 1px solid #343946;
 }
 
+.lead {
+	font-size: 24px;
+}
+
 .header-hr, .entry-title {
 	font-family: Oxygen;
 	font-size: 16.5px;
@@ -658,7 +662,7 @@ Jumbotron
 }
 
 .jumbotron p {
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .container .jumbotron, .container-fluid .jumbotron {
@@ -677,11 +681,19 @@ Jumbotron
 }
 
 .neg-margintop-40 {
-	margin-top: -40px;
+	margin-top: -40px!important;
 }
 
 .neg-marginbot-40 {
-	margin-bottom: -40px;
+	margin-bottom: -40px!important;
+}
+
+.neg-margintop-80 {
+	margin-top: -80px!important;
+}
+
+.neg-marginbot-80 {
+	margin-bottom: -80px!important;
 }
 /*
 Thumbnail
@@ -3631,15 +3643,15 @@ Plan Section
 	font-size: 15px;
 }
 .plan-price {
-	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Rufina', serif;
 	font-size: 40px;
 	color: rgb(240, 177, 70);
 	margin-bottom: 20px;
 }
 
 .product-price {
-	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 40px;
+	font-family: 'Rufina', serif;
+	font-size: 60px;
 	color: #5c5c5c;
 	margin-bottom: 20px;
 }
@@ -3652,17 +3664,17 @@ Plan Section
 	font-size: 25px;
 }
 .plan-period {
-	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Rufina', serif;
 	font-size: 12px;
 	color: #808080;
 }
 .product-period {
-	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Rufina', serif;
 	font-size: 12px;
 	color: #808080;
 }
 .plan-title {
-	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Rufina', serif;
 	margin-bottom: 25px;
 	font-size: 19px;
 	text-transform: uppercase;
