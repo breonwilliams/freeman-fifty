@@ -13,6 +13,9 @@
 			<footer id="site-footer" role="contentinfo">
 				<div class="footer-section pad-50">
 					<div class="container">
+						<div style="font-weight: 700; letter-spacing: 0px; color: rgb(238, 238, 238); font-size: 14px; position: relative; padding: 0 0 25px; font-family: Oxygen; text-align: center;">
+							Investing involves substantial risk. Always consider a financial professional when investing. Past performance is not indicative of future returns. Forex trading involves significant risk of loss and is not suitable for all investors.
+						</div>
 						<div id="footer-row" class="row site-footer">
 							<?php get_sidebar('footerone'); ?>
 							<?php get_sidebar('footertwo'); ?>
